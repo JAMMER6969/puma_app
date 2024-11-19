@@ -1,0 +1,232 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: #27292d;
+}
+header{
+    /* padding-bottom: 1rem; */
+    background-color: black;
+    /* color: aliceblue; */
+    margin-top: 2rem;
+    
+    
+    
+    
+}
+
+.ben_in{
+    display: flex;
+    justify-content: end;
+    
+    
+    
+    
+}
+.ben_in > a{
+    font-size: 60px;
+    color: #0087fd;
+    margin-left: 8rem;
+    
+}
+nav{
+    padding-block: 1rem;
+}
+h1{
+    border: 2px solid;
+}
+
+
+
+.inner_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav_items{
+    display: flex;
+    margin-left: 3rem;
+    font-size: 15px;
+    margin-top: 2rem;
+    
+}
+.nav_items > a{
+    color: aliceblue;
+    margin-left: 1rem;
+
+}
+.james_in{
+    align-items: end;
+    margin-top: 1.8rem;
+    align-items: center;
+    justify-content: end;
+}
+.james_in > span{
+    margin-left: .5rem;
+    color: aliceblue;
+    font-size: 18px;
+    
+    
+    
+}
+
+    
+
+    
+    
+
+
+    
+    
+
+.ann_tel{
+    margin-left: 8rem;
+    padding: 1rem;
+    width:80%;
+    height: 15vh;
+    
+    
+    
+}
+.ann_tel > img{
+    width: 100%;
+    height: 15vh;
+    /* object-fit: cover ; */
+    
+}
+.input_box{
+    margin-left: 24rem;
+    font-size: 15px;
+    font-weight: 50;
+    
+    
+    
+    
+    
+   
+}
+.input_box > ::placeholder{
+    color: white;
+    font-size: 14px;
+    background-color: #27292d;
+    font-weight: lighter;
+    /* border: 2px solid red; */
+    
+    
+      
+}
+.input_box > input{
+    width: 30%;
+    height: 7vh;
+    background-color: #27292d;
+    font-weight: 100;
+}
+    
+
+button{
+    padding: 1rem 1.6rem;
+    background-color: #0669ff;
+    border: none;
+    color: #fff;
+
+
+    
+}
+.babe_in{
+    background-color: #0087fd;
+    padding: 1rem;
+    width: 70%;
+    height: 13vh;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    margin-left: 9rem;
+}
+.babe_in > span{
+    margin-left: 43rem;
+    font-size: 22px;
+    color: azure;
+}
+#wrapper{
+    border-radius: 20px;
+    background-color: #27292d;
+    /* border: 2px solid black; */
+    height: 85vh;
+    max-width: 700Px;
+    margin: 1rem auto;
+    padding: .5rem;
+}
+.container{
+    /* border: 2px solid green; */
+}
+
+.clara_in{
+    display: flex;
+    /* color: black; */
+}
+.vick_in{
+    width: 49%;
+    height: 80vh;
+    /* border: 2px solid green; */
+}
+.vick_in > img{
+    height: 80vh;
+    width: 98%;
+}
+#ameh_in{
+    /* border: 2px solid yellow; */
+    width: 49%;
+    height: 80vh;
+    /* display: flex; */
+    
+    
+}
+.joe_in{
+    /* border: 2px solid white; */
+    width: 49%;
+    height: 40vh;
+
+}
+.joe_in > img{
+    width: 98%;
+    height: 40vh;
+}
+.joe_out{
+    /* border: 2px solid blue; */
+    width: 49%;
+    height: 40vh;
+    margin-left: 10.8rem;
+}
+.joe_out > img{
+width: 98%;
+height: 40vh;
+}
+.john_out{
+    /* border: 2px solid red; */
+    width: 49%;
+    height: 40vh;
+    margin-left: 10.5rem;
+    margin-top: -30.3rem;
+
+}
+.john_out > img{
+    width: 98%;
+    height: 40vh;
+}
+.love_in{
+    /* border: 2px solid gray; */
+    width: 49%;
+    height: 40vh;
+    
+}
+.love_in > img{
+    width: 98%;
+    height: 40vh;
+}
+
+
+
+    
