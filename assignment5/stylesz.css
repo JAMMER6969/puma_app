@@ -1,4 +1,7 @@
-
+.{
+    font-family: 'Courier New', Courier, monospace;
+   
+}
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +14,7 @@ header{
     /* padding-bottom: 1rem; */
     background-color: black;
     /* color: aliceblue; */
-    margin-top: 2rem;
+    margin-top: 1rem;
     
     
     
@@ -27,9 +30,11 @@ header{
     
 }
 .ben_in > a{
-    font-size: 60px;
+    font-size:50px;
     color: #0087fd;
     margin-left: 8rem;
+    text-transform: uppercase;
+    
     
 }
 nav{
@@ -38,37 +43,58 @@ nav{
 h1{
     border: 2px solid;
 }
+.in_in{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    text-transform: capitalize;
+}
 
 
 
 .inner_nav{
+    margin-bottom: 1rem;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    width: 950px;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* border: 2px solid red; */
+
 
 }
 .nav_items{
     display: flex;
     margin-left: 3rem;
     font-size: 15px;
-    margin-top: 2rem;
+    /* margin-top: 1.5rem; */
+    align-items: center;
+    /* border: 2px solid white; */
+    width: 400px;
     
+}
+.nav_items > :hover{
+    background-color: blue;
+    cursor: pointer;
 }
 .nav_items > a{
     color: aliceblue;
     margin-left: 1rem;
+    /* margin-bottom: .5rem; */
 
 }
-.james_in{
-    align-items: end;
-    margin-top: 1.8rem;
-    align-items: center;
-    justify-content: end;
-}
-.james_in > span{
+.ben_in > span{
+    display: flex;
     margin-left: .5rem;
-    color: aliceblue;
-    font-size: 18px;
+    color: #fff;
+    font-size: 19px;
+    /* margin-top: -.4rem; */
+    align-items: center;
+    /* justify-content: space-between; */
+    /* gap: 2rem; */
+    
+    
     
     
     
@@ -139,14 +165,14 @@ button{
 .babe_in{
     background-color: #0087fd;
     padding: 1rem;
-    width: 70%;
+    width: 75%;
     height: 13vh;
     margin-top: 1rem;
     padding-top: 1rem;
     margin-left: 9rem;
 }
 .babe_in > span{
-    margin-left: 43rem;
+    margin-left: 42rem;
     font-size: 22px;
     color: azure;
 }
@@ -217,7 +243,7 @@ height: 40vh;
     height: 40vh;
 }
 .love_in{
-    /* border: 2px solid gray; */
+    border: 2px solid gray;
     width: 49%;
     height: 40vh;
     
@@ -225,6 +251,129 @@ height: 40vh;
 .love_in > img{
     width: 98%;
     height: 40vh;
+}
+.mat_out{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid ; */
+    justify-content: center;
+    margin-top: -2rem;
+    height: 15vh;
+    
+}
+.mat_in{
+    /* display: flex; */
+    align-items: center;
+    margin-right: 22rem;
+    width: 130px;
+    background-color: #0087fd;
+    
+    
+
+}
+.mat_in > span{
+    color: white;
+}
+.mat_in > a{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+
+    
+    
+    
+    
+}
+.met_in{
+    margin-left: 4rem;
+    font-size: 17px;
+    font-weight: 800;
+    width: 185px;
+    background-color: black;
+    
+}
+.met_in > a{
+    /* smargin-right: -1rem; */
+    color: white;
+}
+.moses_in{
+    /* border: 2px solid red; */
+    height: 85vh;
+    max-width: 700Px;
+    margin: 1rem auto;
+    margin-top: -1rem;
+    display: flex;
+    gap: 1rem;
+}
+.moses_in :hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.mos_in{
+    width: 220px;
+    height: 85vh;
+    /* border: 2px solid yellow; */
+}
+.mos_in > img{
+    width: 220px;
+    height: 85vh;
+}
+
+.mos_out{
+    width: 260px;
+    height: 100vh;
+    /* border: 2px solid blue; */
+    display: grid;
+    align-items: start;
+    justify-content: start;
+    
+
+}
+.bug_out{
+    width: 117px;
+    height: 15vh;
+    /* border: 2px solid green; */
+    
+}
+.bug_out > img{
+    width: 120px;
+    height: 18vh;
+
+}
+.jeff_in{
+    /* border: 2px solid red; */
+    width: 86px;
+    margin-left: 8.4rem;
+    margin-top: -7.0rem;
+    gap: 2rem;
+    
+}
+.jeff_in > span{
+    color: white;
+    width: 70px;
+    font-size: 11px;
+    font-weight: 100;
+}
+
+
+.jeff_in > a{
+    color: white;
+    font-size:18px;
+    
+    
+}
+
+
+.mess_in{
+    width: 220px;
+    height: 85vh;
+    border: 2px solid gray;
+
+}
+.mess_in > img{
+    width:220px ;
+    height: 85vh;
 }
 
 

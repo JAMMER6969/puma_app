@@ -52,6 +52,10 @@ nav_items > a{
 
 }
 .btn_btn > button{
+    padding: 1rem 1.6rem;
+    background-color: #ee4f0e;
+    border: none;
+    color: #fff;
     
 }
 
@@ -161,10 +165,80 @@ nav_items > a{
     /* background-color: #fff; */
     border-radius: 100%;
     width: 60px;
-    height: 6opx;
+    height: 60px;
     
 }
 .about_img_vidz > span > i {
     color: #ee4f0e;
     font-size: 1.9rem;
+}
+/* features styling */
+
+.features > h5{
+    color: red;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.features > h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.features_cards_wrapper{
+    margin-block: 2.5rem;
+    display: flex;
+    /* grid-column: 1fr 1fr; */
+    gap: 1.8rem;
+
+}
+.feature_card{
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: .2rem .3rem 15px;
+    height: 50vh;
+    width: 35%;
+    background-color: #fff;
+}
+.feature_card:nth-child(2){
+    background-color: #fdeee7;
+}
+.feature_card:nth-child(3){
+    background-image:url(/9ja5.webp) ;
+    background-position: center;
+
+}
+.feature_card > span{
+    background-color: #e7effc;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+.feature_card_content{
+    margin-block: 1rem;
+
+
+}
+.feature_card_content > h4{
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.feature_card_content > p{
+    text-align: center;
+    margin-block: 1rem;
+    font-size: 14px;
+
+}
+.feature_card_content > a{
+    display: block;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+}
+.feature_card_content > a > span{
+    color: black;
 }
