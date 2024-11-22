@@ -192,6 +192,7 @@ button{
 .clara_in{
     display: flex;
     /* color: black; */
+    margin-left: 1.5rem;
 }
 .vick_in{
     width: 49%;
@@ -201,6 +202,7 @@ button{
 .vick_in > img{
     height: 80vh;
     width: 98%;
+    
 }
 #ameh_in{
     /* border: 2px solid yellow; */
@@ -368,7 +370,7 @@ height: 40vh;
 .mess_in{
     width: 220px;
     height: 85vh;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
 
 }
 .mess_in > img{

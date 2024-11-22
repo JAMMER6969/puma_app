@@ -1,6 +1,5 @@
 
 
-
 *{
     margin: 0;
     padding: 0;
@@ -58,10 +57,7 @@ nav_items > a{
     background-color: #ee4f0e;
     border: none;
     color: #fff;
-    
 }
-
-/* banner styling */
 .banner{
     display: flex;
     gap: 14rem;
@@ -102,11 +98,10 @@ nav_items > a{
     height: 100%;
     object-fit: cover ;
     
-}
+}  
+/* laptops styling */
 
-/* shoe styling */
-
-.shoe_details_card{
+.laptops_details_card{
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
@@ -129,6 +124,7 @@ nav_items > a{
 }
 /* about code */
 .about_ads{
+    background-color: gray;
     margin-block: 7rem;
     display: flex;
     align-items: center;
@@ -137,7 +133,7 @@ nav_items > a{
 }
 .about_content > h5{
     text-transform: uppercase;
-    color: red;
+    color: #ee4f0e;
     font-size: 1rem;
 }
 .about_content > h1{
@@ -154,7 +150,7 @@ nav_items > a{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(/p2.jpg) ;
+    background-image: url(/lap4.webp) ;
     width: 43%;
     height: 40vh;
     position: relative;
@@ -209,15 +205,27 @@ nav_items > a{
     padding: 2rem;
     box-shadow: .2rem .3rem 15px;
     height: 50vh;
-    width: 35%;
+    width: 25%;
     background-color: #fff;
+    
+    
 }
+.feature_card:first-child{
+    background-image: url(/lap3.jpg);
+    border: 2px solid;
+    
+    
+}    
 .feature_card:nth-child(2){
     background-color: #fdeee7;
+    background-image: url(/lap2.jpeg);
+    
 }
-.feature_card:nth-child(3){
-    background-image:url(/9ja5.webp) ;
+.feature_card:last-child{
+    background-image:url(/lap5.jpeg) ;
     background-position: center;
+    
+    
 
 }
 .feature_card > span{
@@ -254,6 +262,271 @@ nav_items > a{
 }
 .feature_card_content > a > span{
     color: black;
+}
+/* gallery code  */
+.gallery_in{
+    /* background-color: gray; */
+    margin-block: 7rem;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+
+}
+.gallery_out > h5{
+    text-transform: uppercase;
+    color: #ee4f0e;
+    font-size: 1rem;
+}
+.gallery_out > h1{
+    text-transform: capitalize;
+    font-size: 2.3rem;
+    font-weight: 600rem;
+
+}
+.gal_in{
+    display: flex;
+    gap: 1rem;
+    font-size: 18px;
+    text-transform: capitalize;
+    width: 80%;
+    
+    
+}
+.gal_in > a{
+    color: #000;
+
+    
+}.gal_in a:hover{
+    color: #ee4f0e;
+    cursor: pointer;
+}
+.ann_in{
+    margin-block: 2rem;
+    display: flex;
+    gap: 1.8rem;
+    
+
+}
+.ann_out{
+    width: 17%;
+    height: 17vh;
+    /* border: 2px solid red; */
+    border-radius: 7px;
+    
+}
+.ann_out > img{
+    height: 17vh;
+    width: 100%;
+}
+.ann_out:first-child{
+    border: 2px solid #ee4f0e;
+}
+.ann_out > h3{
+    /* border: 2px solid; */
+    text-transform: capitalize;
+    padding: .5rem;
+}
+
+.ann_out > p{
+    /* border: 2px solid; */
+    padding: .5rem;
+    text-transform: capitalize;
+}
+.ann_out > a{
+    padding: .5rem;
+    color: black;
+}
+/* testimony card  */
+.testimony{
+    margin-bottom: 6rem;
+    
+    
+}
+.testimony > h2{
+    color: black;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    /* text-align: center; */
+    padding-top: 7rem;
+    margin-left: 18rem;
+    
+    
+}
+.testimony_card_wrapper{
+    margin-block: 2rem;
+    display: flex;
+    /* grid-column: 1fr 1fr; */
+    gap: 5rem;
+    /* margin-left: 4rem; */
+
+}
+.testimony_card{
+    border-radius: 10px;
+    /* padding: 2rem; */
+    /* box-shadow: .2rem .3rem 15px; */
+    height: 39vh;
+    width: 350px;
+    /* border: 2px solid red; */
+    /* display: flex; */
+}
+.testimony_card > img{
+    width: 350px;
+    height: 39vh;
+}
+.testimony_cards{
+    border-radius: 10px;
+    /* padding: 2rem; */
+    /* box-shadow: .2rem .3rem 15px; */
+    height: 35vh;
+    width: 300px;
+    /* background-color: #000; */
+    /* border: 2px solid yellow; */
+    /* display: flex; */
+    
+}
+.testimony_cards > img{
+    width: 65px;
+    height: 12vh;
+    margin-left: 2rem;
+    border-radius: 100%;
+}
+.testimony_cards > h3{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.testimony_cards > p{
+    font-size: 13px;
+    /* border: 2px solid; */
+    text-transform: capitalize;
+    font-weight: 400;
+    width: 8opx;
+    /* border: 2px solid red; */
+    margin-top: 1rem;
+}
+.testimon_wrappers{
+    margin-block: 2rem;
+    display: flex;
+    /* grid-column: 1fr 1fr; */
+    gap: 5rem;
+    /* margin-left: 4rem; */
+    margin-top: 5rem;
+    
+
+
+}
+
+.test_cards{
+    /* border: 2px solid red; */
+    /* padding: 2rem; */
+    /* box-shadow: .2rem .3rem 15px; */
+    height: 33vh;
+    width: 350px;
+
+}
+.test_cards > img{
+    background-color: #000;
+    width: 350px;
+    height: 33vh;
+}
+.testimony_second{
+    background-color: wheat;
+    width: 355px;
+}
+.testimony_second >h3{
+    margin-top: 3rem;
+    text-transform: capitalize;
+}
+.testimony_second >p{
+    font-size: 14px;
+    font-family: 500px;
+    margin-top: 1rem;
+}
+.testimony_second > input{
+    margin-top: 1.2rem;
+    padding-block: .5rem;
+    width: 250px;
+    font-weight: 100;
+}
+.testimony_second >input::placeholder{
+    font-weight: 100;
+    font-size: 12px;
+    /* margin-right: -2rem; */
+    
+}
+.testimony_second > label{
+    padding: .5rem 1.1rem;
+    background-color: #ee4f0e;
+    border: none;
+    color: #fff;
+    
+}
+.frank{
+    background-color: #f6b59a;
+    /* height: 30vh; */
+    /* margin-bottom: 1rem; */
+}
+.frank_wrapper{
+    display: flex;
+    gap: 2rem;
+}
+
+.frank_in > h5{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    
+}
+.frank_in > p{
+    font-size: 16px;
+    font-weight: 100;
+    text-transform: capitalize;
+
+
+}
+.frank_in > h6{
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+.frank_in > input{
+    margin-top: 1rem;
+    margin-left: .3rem;
+    width: 150px;
+    padding-block: .6rem;
+    color: #fdeee7;
+    font-weight: 100;
+
+
+}
+.frank_in > input::placeholder{
+    font-weight: 100;
+   
+}
+.frank_in > label{
+    padding: .5rem 1.1rem;
+    background-color: #ee4f0e;
+    border: none;
+    color: #fff;
+}
+.sept_in{
+    margin-top: .6rem;
+    
+    
+}
+.sept_in > img{
+    height: 3vh;
+    width: 20px;
+    
+    
+}
+.men_in{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: capitalize;
 }
 /* responsiveness code  */
 @media (min-width: 320px) and (max-width: 460px) {
@@ -304,4 +577,5 @@ nav_items > a{
     }
 
 }  
+
 
